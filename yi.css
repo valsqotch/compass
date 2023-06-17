@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    cursor:crosshair;
+}
+body{
+    background-color: rgb(220,220,220);
+}
+#d1{
+    width:400px;
+    height:400px;
+    border:4px black solid;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+}
+#centerdiv{
+    margin:auto;
+    position:relative;
+    top:50vh;
+    transform:translate(0,-50%);
+    width:0px;
+    height:0px;
+}
+#indi{
+    position:absolute;
+    width:200px;
+    height:5px;
+    border-radius:2px 0px 0px 2px;
+    background-color:black;
+    transform:translate(-0%,-50%);
+}
+#indi-roa{
+    position:absolute;
+    width:0px;
+    height:0px;
+}
+#arrow{
+    position:absolute;
+    width:400px;
+    height:0%;
+    transform:translate(-50%,0);
+    border-top:2px black dashed;
+}
+#pitch{
+    width:10px;
+    height:10px;
+    position:absolute;
+    background-color: black;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+}
+#ds{
+    position:relative;
+    margin:auto;
+    top:80vh;
+    width:fit-content;
+    transform:translate(-0,-50%);
+    font-weight: bolder;
+    font-size:60px;
+}
